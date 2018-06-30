@@ -28,11 +28,12 @@ section{
     width: 50%;
     height: 60%;
     line-height: 40px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 aside{
-    margin-top: 10px;
+    margin-top: 20px;
+    line-height: 40px;
     float: right;
     height: 60%;
     width: 45%;
@@ -40,6 +41,7 @@ aside{
 }
 
 article{
+    color: #fff;
     margin: 0;
     position: relative;
     bottom: -110px;
@@ -52,10 +54,13 @@ article{
 }
 
 .h123{
+    color:  #666;
     background-color: #fff;
+    font-weight: bold;
 }
 
 .p{
+    color:  #666;
     background-color: #fff;
     margin-top: 10px;
 }
@@ -63,7 +68,7 @@ article{
 .footer{
     clear: both;
     position: relative;
-    width: 100%;
     background-color: #fff;
-    bottom: -10px;
+    bottom: -20px;
+    padding: 20px;
 }
